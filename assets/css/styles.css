@@ -221,6 +221,7 @@ header nav li {
   .destinations .grid li.small,
   .destinations .grid li.large {
     flex-basis: 100%;
+    padding: 15px 10px;
   }
 }
 
