@@ -210,6 +210,20 @@ header nav li {
   flex-basis: 70%;
 }
 
+@media (max-width: 1080px) {
+  .destinations .grid li.small,
+  .destinations .grid li.large {
+    flex-basis: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .destinations .grid li.small,
+  .destinations .grid li.large {
+    flex-basis: 100%;
+  }
+}
+
 /*Package style*/
 
 .packages .grid li {
